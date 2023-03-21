@@ -7,22 +7,24 @@
     <title>Balance Sheet</title>
   </head>
   <body>
-    <h1>Lets get it started BALANCE SHEET HEK YEAH!</h1>
     <main>
       <section>
-        <h1>
-          <span class="flex">
-            <span>AcmeWidgetCorp</span>
-            <span>Balance Sheet</span>
-          </span>
-        </h1>
-        <div id="years" aria-hidden="true">
-          <span class="year">2019</span>
-          <span class="year">2020</span>
-          <span class="year">2021</span>
-        </div>
+        <header class="header">
+          <h1>
+            <span class="flex">
+              <span>AcmeWidgetCorp</span>
+              <span>Balance Sheet</span>
+            </span>
+          </h1>
+          <div class="header__years" id="years" aria-hidden="true">
+            <span class="header__year">2019</span>
+            <span class="header__year">2020</span>
+            <span class="header__year">2021</span>
+          </div>
+        </header>
+        
         <div class="table-wrap">
-          <table>
+          <table class="table">
             <caption>
               Assets
             </caption>
@@ -61,7 +63,7 @@
               </tr>
             </tbody>
           </table>
-          <table>
+          <table class="table">
             <caption>
               Liabilities
             </caption>
@@ -100,7 +102,7 @@
               </tr>
             </tbody>
           </table>
-          <table>
+          <table class="table">
             <caption>
               Net Worth
             </caption>

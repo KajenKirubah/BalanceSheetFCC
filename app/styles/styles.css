@@ -1,2 +1,6 @@
-@import '../styles/base/_global.css';
+@import './base/_mixins';
+@import '../styles/base/_global';
+@import './modules/_sr-only';
+@import './modules/_header';
+@import './modules/_table-wrap';
 
